@@ -1,0 +1,16 @@
+platform :ios, '11.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
+target 'BBCGestureRecognizer_Example' do
+  pod 'BBCGestureRecognizer', :path => '../'
+  pod 'SwiftLint'
+
+  target 'BBCGestureRecognizer_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+  end
+end

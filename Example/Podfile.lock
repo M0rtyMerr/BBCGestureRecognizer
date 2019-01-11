@@ -1,0 +1,31 @@
+PODS:
+  - BBCGestureRecognizer (0.1.0)
+  - Nimble (7.3.1)
+  - Quick (1.3.2)
+  - SwiftLint (0.29.3)
+
+DEPENDENCIES:
+  - BBCGestureRecognizer (from `../`)
+  - Nimble
+  - Quick
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  BBCGestureRecognizer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBCGestureRecognizer: 715bd5d59f6493da94ba9f1274e223dd665a82c8
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
+  SwiftLint: bfa7ca7b4d170cfaf0d236ca3ffd969e88a2f002
+
+PODFILE CHECKSUM: 1d080e71e3925c1fb6d2690da4e676e8aa0b0f67
+
+COCOAPODS: 1.6.0.beta.2

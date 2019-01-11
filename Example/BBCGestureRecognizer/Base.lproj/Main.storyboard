@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pj7-m3-vDW">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Draw-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="DrawingViewController" customModule="BBCGestureRecognizer_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vum-CT-GJW">
+                                <rect key="frame" x="0.0" y="20" width="414" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="k6g-ZZ-vZI"/>
+                                    <constraint firstAttribute="height" constant="65" id="nBG-NP-Y1E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7re-vT-0yr" customClass="RenderView" customModule="BBCGestureRecognizer">
+                                <rect key="frame" x="0.0" y="85" width="414" height="602"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9MQ-l9-gaz" firstAttribute="trailing" secondItem="7re-vT-0yr" secondAttribute="trailing" id="4lO-VJ-EDJ"/>
+                            <constraint firstItem="Vum-CT-GJW" firstAttribute="leading" secondItem="9MQ-l9-gaz" secondAttribute="leading" id="6Yz-hQ-iHP"/>
+                            <constraint firstItem="7re-vT-0yr" firstAttribute="top" secondItem="Vum-CT-GJW" secondAttribute="bottom" id="7YI-pU-py1"/>
+                            <constraint firstItem="Vum-CT-GJW" firstAttribute="top" secondItem="9MQ-l9-gaz" secondAttribute="top" id="XN7-j5-LLN"/>
+                            <constraint firstItem="9MQ-l9-gaz" firstAttribute="bottom" secondItem="7re-vT-0yr" secondAttribute="bottom" id="YqB-KL-WOg"/>
+                            <constraint firstItem="7re-vT-0yr" firstAttribute="leading" secondItem="9MQ-l9-gaz" secondAttribute="leading" id="w3L-s6-FjZ"/>
+                            <constraint firstItem="9MQ-l9-gaz" firstAttribute="trailing" secondItem="Vum-CT-GJW" secondAttribute="trailing" id="w9G-Jo-TUv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9MQ-l9-gaz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Draw" id="he5-8z-T3w"/>
+                    <connections>
+                        <outlet property="identifierLabel" destination="Vum-CT-GJW" id="MKF-B3-Kcp"/>
+                        <outlet property="renderView" destination="7re-vT-0yr" id="jNm-Hc-enH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.8" y="26.53673163418291"/>
+        </scene>
+        <!--Your VIPER module-->
+        <scene sceneID="AjG-ew-Kfe">
+            <objects>
+                <viewController id="tVf-fR-lfl" customClass="ReviewViewController" customModule="BBCGestureRecognizer_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="isK-Oa-bRi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ows-Mv-kZo">
+                                <rect key="frame" x="197" y="358" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ows-Mv-kZo" firstAttribute="centerY" secondItem="isK-Oa-bRi" secondAttribute="centerY" id="93N-YP-SwY"/>
+                            <constraint firstItem="ows-Mv-kZo" firstAttribute="centerX" secondItem="isK-Oa-bRi" secondAttribute="centerX" id="zyx-vt-VDO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wga-Z8-szG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Your VIPER module" id="j0I-AM-aoh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gml-jF-18B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952.1739130434785" y="820.92391304347836"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="YUV-lP-rAj">
+            <objects>
+                <viewController id="eeo-SD-94Z" customClass="ChatViewController" customModule="BBCGestureRecognizer_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EJq-ef-1lB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChatExample" translatesAutoresizingMaskIntoConstraints="NO" id="UGd-PL-2N3">
+                                <rect key="frame" x="0.0" y="20" width="414" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UGd-PL-2N3" firstAttribute="leading" secondItem="un5-iK-0Y8" secondAttribute="leading" id="8ep-IA-nmN"/>
+                            <constraint firstItem="UGd-PL-2N3" firstAttribute="top" secondItem="un5-iK-0Y8" secondAttribute="top" id="QZF-oa-KfN"/>
+                            <constraint firstItem="un5-iK-0Y8" firstAttribute="trailing" secondItem="UGd-PL-2N3" secondAttribute="trailing" id="UE8-3h-rg9"/>
+                            <constraint firstItem="un5-iK-0Y8" firstAttribute="bottom" secondItem="UGd-PL-2N3" secondAttribute="bottom" id="zXa-Vk-elt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="un5-iK-0Y8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" id="E0p-Sy-RSP"/>
+                    <connections>
+                        <outlet property="imageView" destination="UGd-PL-2N3" id="aeb-UJ-ZOz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="09U-AV-ypb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1930" y="1531"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xkv-2u-6R3">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pj7-m3-vDW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ao0-It-0q9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="glf-5N-Zjk"/>
+                        <segue destination="cqt-CG-Mtt" kind="relationship" relationship="viewControllers" id="rg0-2U-Mfh"/>
+                        <segue destination="eeo-SD-94Z" kind="relationship" relationship="viewControllers" id="dU2-5j-5zm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocX-sO-hY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.599999999999994" y="26.53673163418291"/>
+        </scene>
+        <!--Review-->
+        <scene sceneID="1GK-dB-D4G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cqt-CG-Mtt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Review" id="cxc-Oy-ETb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="i2t-ya-Thz">
+                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tVf-fR-lfl" kind="relationship" relationship="rootViewController" id="jLN-ft-lRm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pG5-bv-Drp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="820.92391304347836"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ChatExample" width="586" height="1109"/>
+    </resources>
+</document>
