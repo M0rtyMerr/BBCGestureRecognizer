@@ -67,7 +67,7 @@ The Code of Conduct governs how we behave in public or in private
 whenever the project will be judged by our actions.
 We expect it to be honored by everyone who contributes to this project.
 
-See [CONDUCT.md](https://github.com/MortyMerr/BBCGestureRecognizer/blob/master/CONDUCT) for details.
+See [CONDUCT](https://github.com/MortyMerr/BBCGestureRecognizer/blob/develop/CONDUCT) for details.
 
 ---
 
