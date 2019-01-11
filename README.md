@@ -53,7 +53,7 @@ Swift 4.2+
 - If you **need help with BBC meaning**, use [Pornhub](https://www.pornhub.com/video/search?search=bbc).
 - If you need to **get the joke** please google "post irony" and "self irony". If still doesn't help, sorry. I was drunk and that seemed to be the most hilarous idea in da world for me.
 - If you'd like to **discuss BBC best practices**, feel free to open issue or post smthing in twitter
-- If you **found a bug**, it doesn't not amaze me.
+- If you **found a bug**, it doesn't amaze me.
 - If you **want to contribute**, submit a pull request.
 
 ## Installation
