@@ -16,14 +16,13 @@ Please read it before you start participating.
 I don't use GitHub as a support forum.
 For any usage questions that are not specific to the project itself,
 please ask on [Stack Overflow](https://stackoverflow.com) instead.
-By doing so, you'll be more likely to quickly solve your problem,
+By doing so, you'll be more likely to asked "WHAT DA FUCK"
 and you'll allow anyone else with the same question to find the answer.
-This also allows maintainers to focus on improving the project for others.
 
 ## Reporting Security Issues
 
 I take security seriously.
-If you discover a security issue, please bring it to our attention right away!
+If you discover a security issue, please bring it to my attention right away!
 
 Please **DO NOT** file a public issue,
 instead send your report privately to <lolpoveril@gmail.com>.
@@ -33,8 +32,7 @@ to any affected parties.
 
 ## Reporting Other Issues
 
-A great way to contribute to the project
-is to send *your own BBC samples* to keep learning my model. I always appreciate that.
+A great way to contribute to the project is to send *your own BBC samples* to keep training my model. I always appreciate that.
 
 
 ## Developer's Certificate of Origin 1.1
@@ -69,7 +67,7 @@ The Code of Conduct governs how we behave in public or in private
 whenever the project will be judged by our actions.
 We expect it to be honored by everyone who contributes to this project.
 
-See [CONDUCT.md](https://github.com/MortMerr/BBCGestureRecognizer/blob/master/CONDUCT) for details.
+See [CONDUCT.md](https://github.com/MortyMerr/BBCGestureRecognizer/blob/master/CONDUCT) for details.
 
 ---
 
