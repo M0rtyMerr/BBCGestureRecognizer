@@ -5,4 +5,4 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 - Initial release of notable.
-  - Added by [Anton Nazarov](https://github.com/MortMerr).
+  - Added by [Anton Nazarov](https://github.com/MortyMerr).
