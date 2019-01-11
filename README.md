@@ -10,7 +10,7 @@
 
 BBCGestureRecognizer is the perfect instrument to handle users draw Big Black Cock on the screen. 
 
-**⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️** I really need your samples lo learn classification model. Feel free to open pull request.
+**⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️** I really need your samples lo train classification model. Feel free to open pull request with BBC pictures drawn by your own.
 
 ## Demo
 Feel free to checkout sample app and play around it. 
@@ -19,8 +19,8 @@ Feel free to checkout sample app and play around it.
 
 ## Use cases
 ### Review
-We all know, you are not very smart guy, yeah? Sometimes you release shit... 
-User is observing bugs and infinite loading. He might want to draw cock on screen. This is not a big problem, we are all doing that to relax. 
+We all know, you are not very smart guy. You release shit quite often... 
+User is observing bugs and infinite loading. He might want to draw cock on screen. This is not a big problem, we all do that to relax. 
 When he finish his creation - he is absolutely happy. Just remember ur feelings after finishing such pictures...
 *AND THEN BANG!!!* It's time to suggest him to review your app. Obviously he will appreciate your great sense of humour and give u five stars.
 
@@ -33,10 +33,10 @@ Such a great idea to embed just another fucking chat in your app. But if u alrea
 <img src="assets/pmDemo.gif" width="300" height="600">
 
 ## Features
-- [x] Best experience of discovering BBCGesture in github (verified). 
+- [x] The only rational usage of CoreML and Vision.
+- [x] Best experience of discovering BBCGesture on github (verified). 
 - [x] Comprehensive Unit and Integration Test Coverage.
 - [x] Fully implemented with Swift
-- [x] The only rational usage of CoreML and Vision.
 - [x] If u want to draw cock in ur office - just clone my project. There is nothing to hide, u r just surfing github, looking for new technologies.
 - [x] To be honest guys, this is funny. But maybe not for u.
 
@@ -47,11 +47,10 @@ Swift 4.2+
 
 ## Communication
 - If you **need help with BBC meaning**, use [Pornhub](https://www.pornhub.com/video/search?search=bbc).
-- If you need to **get the joke** please google "post irony" and "self irony". If still doesn't help, sorry. I was drunk and that seemed to be the best hilarous joke in da world for me.
+- If you need to **get the joke** please google "post irony" and "self irony". If still doesn't help, sorry. I was drunk and that seemed to be the most hilarous idea in da world for me.
 - If you'd like to **discuss BBC best practices**, feel free to open issue or post smthing in twitter
 - If you **found a bug**, it doesn't not amaze me.
 - If you **want to contribute**, submit a pull request.
-
 
 ## Installation
 
@@ -70,8 +69,7 @@ github "MortMerr/BBCGestureRecognizer" "8=========D"
 ```
 
 ### Swift Package Manager
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. what is already dead cannot die, so fuck it, use CocoaPods.
-
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. What is already dead cannot die, so fuck it, use CocoaPods.
 
 ### Manually
 If you prefer not to use any of the aforementioned dependency managers, you are not very smart guy and my project is not for you.
@@ -83,7 +81,7 @@ BBCGestureRecognizer is owned and maintained by the most talented iOS developer 
 If you believe you have identified a security vulnerability or bitcoin miner with BBCGestureRecognizer, you should report it as soon as possible via email to lolpoveril@gmail.org. Please do not post it to a public issue tracker. 
 
 ## Donations
-Every opened PR with BBC image is better than $20 for me.
+Every opened PR with BBC image is better even than $20 for me.
 
 ## Author
 Anton Nazarov, https://twitter.com/@M0rtyMerr
