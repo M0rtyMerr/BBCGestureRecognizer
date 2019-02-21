@@ -50,7 +50,7 @@ Xcode 10.1+
 Swift 4.2+
 
 ## Communication
-- If you **need help with BBC meaning**, use [Pornhub](https://www.pornhub.com/video/search?search=bbc).
+- If you **need help with BBC meaning**, use Google.
 - If you need to **get the joke** please google "post irony" and "self irony". If still doesn't help, sorry. I was drunk and that seemed to be the most hilarous idea in da world for me.
 - If you'd like to **discuss BBC best practices**, feel free to open issue or post smthing in twitter
 - If you **found a bug**, it doesn't amaze me.
