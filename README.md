@@ -10,8 +10,6 @@
 
 BBCGestureRecognizer is the perfect instrument to handle users draw Big Black Cock on the screen. 
 
-**⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️** I really need your samples lo train classification model. Feel free to open pull request with BBC pictures drawn by your own.
-
 ## Demo
 Feel free to checkout sample app and play around it. 
 
